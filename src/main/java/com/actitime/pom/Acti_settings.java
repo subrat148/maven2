@@ -47,5 +47,8 @@ public class Acti_settings
 
 		typesOfLeave.click();
 	}
-
+public void workflowMethod()
+{
+	workflowsettings.click();
+}
 }

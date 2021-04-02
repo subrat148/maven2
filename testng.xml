@@ -9,8 +9,7 @@
       <class name="com.actitime.test.Acti_WorkDelete_test"/>
       <class name="com.actitime.test.Acti_CreateLeave_test"/>
       <class name="com.actitime.test.Acti_LeaveDelete_test"/>
-      
-      
+      <class name="com.actitime.test.Work_flow"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
