@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.actitime.test.Acti_createWork_test">
+        <methods>
+          <include name="logintoActi"/>
+          <include name="openBrowser"/>
+          <include name="work"/>
+          <include name="closeBrowser"/>
+          <include name="logoutfromActi"/>
+        </methods>
+      </class> <!-- com.actitime.test.Acti_createWork_test -->
+      <class name="com.actitime.test.Acti_createCustomer_test">
+        <methods>
+          <include name="logintoActi"/>
+          <include name="openBrowser"/>
+          <include name="customer"/>
+          <include name="closeBrowser"/>
+          <include name="logoutfromActi"/>
+        </methods>
+      </class> <!-- com.actitime.test.Acti_createCustomer_test -->
+      <class name="com.actitime.test.Acti_WorkDelete_test">
+        <methods>
+          <include name="logintoActi"/>
+          <include name="openBrowser"/>
+          <include name="workDelete"/>
+          <include name="closeBrowser"/>
+          <include name="logoutfromActi"/>
+        </methods>
+      </class> <!-- com.actitime.test.Acti_WorkDelete_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
